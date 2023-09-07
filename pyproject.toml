@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-docker-flask"
+version = "0.1.0"
+description = "Fancy Simple Flask App"
+authors = ["esriindo <mjanuadi@esriindonesia.co.id>"]
+readme = "README.md"
+packages = [{include = "simple_docker_flask"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.3"
+
+[tool.poetry.group.dev.dependencies]
+Flask = "^2.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
